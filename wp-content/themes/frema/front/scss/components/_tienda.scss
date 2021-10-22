@@ -1,0 +1,11 @@
+.tienda {
+    padding: rem(200px) rem(20px) rem(100px) rem(20px);
+    @include from(l) {
+        padding: rem(200px) rem(120px) rem(100px) rem(120px);
+    }
+    header {
+        h2 {
+            color: $naranja;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+#destacado {
+    transform: skewY(-3deg);
+    background-size: cover;
+    background-position: center;
+    height: rem(800px);
+    .container {
+        transform: skewY(3deg);
+        .info {
+            color: $white;
+            padding: rem(100px) 0;
+            @include from(l) {
+                padding: rem(250px);
+            }
+            p {
+                color: $white;
+            }
+        }
+    }
+}
+
+#destacadoCasa {
+    padding: rem(100px) 0;
+    @include from(l) {
+        padding: rem(150px) 0;
+    }
+    .destacado {
+        h2 {
+            color: $naranja;
+            margin-bottom: rem(60px);
+        }
+    }
+}

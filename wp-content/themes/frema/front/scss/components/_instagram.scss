@@ -1,0 +1,19 @@
+.instagram {
+    transform: skewY(-3deg);
+    background-color: $fondoM;
+    padding: rem(200px) rem(20px) rem(100px) rem(20px);
+    background-size: cover;
+    @include from(l) {
+        padding: rem(200px) rem(120px) rem(100px) rem(120px);
+    }
+    header {
+        transform: skewY(3deg);
+        text-align: center;
+        color: $white;
+        text-transform: uppercase;
+    }
+    .powr-social-feed{
+        transform: skewY(3deg);
+    }
+
+}

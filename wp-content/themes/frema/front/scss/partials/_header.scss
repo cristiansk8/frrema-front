@@ -1,0 +1,90 @@
+nav {
+    min-height: 70px !important;
+}
+
+.row-header {
+    background: $white;
+    padding: 0 4rem;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    @include from(m) {
+        display: flex;
+    }
+    z-index: 9999;
+    .navbar-header {
+        .navbar-toggle {
+            background-color: $white;
+        }
+        .navbar-brand {
+            width: 16rem;
+            margin: none;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+        .navbar-toggle {
+            background-color: $naranja;
+            margin-top: 30px;
+            .icon-bar {
+                background-color: #fff;
+            }
+        }
+    }
+    .navbar-collapse {
+        width: 100%;
+        background-color: $white;
+        @include from(l) {
+            width: 90%;
+        }
+        .menu-main-menu-container {
+            width: 100%;
+            ul {
+                float: right;
+                .open {
+                    a {
+                        font-family: $rg;
+                    }
+                }
+                .tienda {
+                    a {
+                        background-color: $verde;
+                        color: #fff;
+                        border-radius: 62px;
+                        text-decoration: none;
+                        height: 35px!important;
+                        padding: 6px 20px 0;
+                        margin-top: 35px;
+                        &:hover {
+                            background-color: $white;
+                            color: $verde;
+                            border: 1px solid $verde;
+                        }
+                    }
+                }
+                li {
+                    margin: 0;
+                    padding: 0;
+                    a {
+                        @include from(l) {
+                            margin: rem(35px) rem(60px);
+                            font-size: rem(30px);
+                            height: 70px;
+                            letter-spacing: 1px;
+                        }
+                        color: $negro;
+                        font-family: $rg;
+                        font-size: rem(25px);
+                        padding: rem(30px) rem(10px);
+                        height: 50px;
+                        &:hover {
+                            color: $naranja;
+                            background-color: $white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

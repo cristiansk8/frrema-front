@@ -1,0 +1,14 @@
+.slider-malinkes {
+    padding: rem(50px) rem(195px);
+    @include from(l) {
+        padding: rem(50px) rem(395px);
+    }
+    .slider__item {
+        picture {
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+}

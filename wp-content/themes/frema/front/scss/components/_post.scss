@@ -1,0 +1,31 @@
+.single {
+    .text-left {
+        padding-left: rem(150px) !important;
+        margin: rem(100px) 0;
+        a {
+            font-family: $rb;
+            padding: rem(20px) rem(30px);
+            background-color: $naranja;
+            color: $white;
+            border-radius: 62px;
+            text-decoration: none;
+            &:hover {
+                background-color: $white;
+                color: $naranja;
+                border: 1px solid $white;
+            }
+        }
+    }
+}
+
+#content {
+    .caption {
+        
+        h2 {
+            text-align: center;
+            text-transform: uppercase;
+            color: $verde;
+            margin: rem(72px) 0;
+        }
+    }
+}

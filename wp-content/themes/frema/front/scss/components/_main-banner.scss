@@ -1,0 +1,26 @@
+.main-banner {
+    position: relative;
+    margin-top: 70px;
+    &__image {
+        img {
+            width: 100%;
+        }
+    }
+    &__caption {
+        @include center('vertical');
+        max-width: rem(400px);
+        @include from(l) {
+            left: 20%;
+        }
+        h3{
+            font-size: rem(50px);
+            @include from(l) {
+                font-size: rem(110px);
+            }
+        }
+    }
+    &__title {
+        @extend %h1;
+        color: $white;
+    }
+}

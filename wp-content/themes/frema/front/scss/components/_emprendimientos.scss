@@ -1,0 +1,43 @@
+.emprendimientos {
+    transform: skewY(-3deg);
+    background-color: $fondoM;
+    padding: rem(200px) rem(20px) rem(100px) rem(20px);
+    background-size: cover;
+    @include from(l) {
+        padding: rem(200px) rem(120px) rem(100px) rem(120px);
+    }
+    header {
+        transform: skewY(3deg);
+        text-align: center;
+        color: $white;
+        text-transform: uppercase;
+    }
+    .padding-contendor-elemetos {
+        transform: skewY(3deg);
+        .row {
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            .news__item {
+                padding: rem(50px) rem(100px);
+                @include from(l) {
+                    padding: rem(20px);
+                }
+                width: 100%;
+                @include from(l) {
+                    width: 33%;
+                }
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+                .news__caption {
+                    h4 {
+                        color: $white;
+                        margin-top: -50px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,71 @@
+footer {
+    padding: rem(50px) rem(20px) rem(100px) rem(20px);
+    background-size: cover;
+    @include from(l) {
+        padding: rem(50px) rem(120px) rem(100px) rem(120px);
+    }
+    margin-top: 50px;
+    .row {
+        background-color: $white;
+        .col-md-3 {
+            display: flex;
+            p {
+                margin: 10px;
+            }
+        }
+        .col-md-2 {
+            img {
+                margin-top: -50px;
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+    .container-foot {
+        @include from(l) {
+            display: flex;
+        }
+        display: block;
+        width: 100%;
+        .container1 {
+            display: block;
+            @include from(l) {
+                width: 40%;
+                display: flex;
+            }
+            width: 100%;
+            .mail,
+            .tel {
+                width: 100%;
+                justify-content: center;
+                padding: 5px;
+                display: flex;
+                @include from(l) {
+                    width: 50%;
+                }
+                p {
+                    margin: 10px;
+                }
+            }
+        }
+        .container2 {
+            @include from(l) {
+                width: 20%;
+            }
+            width: 100%;
+        }
+        .container3 {
+            display: flex;
+            margin-top: 125px;
+            ;
+            @include from(l) {
+                margin-top: 0;
+                width: 40%;
+            }
+            width: 100%;
+            .icon {
+                width: 32%;
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+#banner5050 {
+    .col-md-12 {
+        padding-right: rem(150px) !important;
+        a {
+            padding: rem(20px) rem(30px);
+            color: $naranja;
+            border-radius: 62px;
+            text-decoration: none;
+            border: 1px solid $naranja;
+            &:hover {
+                background-color: $naranja;
+                color: $white;
+                border: 1px solid $white;
+            }
+        }
+    }
+}
+
+.banner5050 {
+    .row {
+        img {
+            width: 100%;
+            height: auto;
+        }
+        .info {
+            padding: rem(40px);
+            @include from(l) {
+                padding: rem(80px);
+            }
+        }
+    }
+}

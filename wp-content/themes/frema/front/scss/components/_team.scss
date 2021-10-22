@@ -1,0 +1,39 @@
+#equipo {
+    padding: rem(200px) rem(20px) rem(100px) rem(20px);
+    @include from(l) {
+        padding: rem(200px) rem(120px) rem(100px) rem(120px);
+    }
+    header {
+        h2 {
+            span {
+                color: $white;
+                background-image: url('../images/bg/mancha-amarilla.svg');
+                padding: 14px 62px;
+            }
+        }
+    }
+    .container-team {
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        .item {
+            padding: 0 rem(40px);
+            width: 99%;
+            @include from(l) {
+                width: 33%;
+            }
+            figure {
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            .caption {
+                text-align: center;
+                h4 {
+                    color: $verde;
+                }
+            }
+        }
+    }
+}

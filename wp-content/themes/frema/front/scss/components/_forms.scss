@@ -1,0 +1,64 @@
+.form-banner {
+    .form-info {        
+        min-height: 64rem;
+        background-repeat: no-repeat;
+        background-position: left;
+        min-height: 60rem;
+        h2 {
+            margin-top: 100px;
+            margin-left: 40px;
+            font-size: rem(30px);
+            color: $amarillo;
+            width: fit-content;
+            padding: 10px 20px;
+        }
+        .info-text {
+            margin-top: 22%;
+            color: $white;
+            padding: 0 20%;
+            p {
+                font-size: rem(35px);
+                color: $white
+            }
+        }
+    }
+    .cifras-banner-form {
+        background-color: $amarillo;
+        min-height: 64rem !important;
+    }
+}
+#form2-docs {
+    background-image: url(http://fundacionfrema.com.co/wp-content/uploads/2021/10/imagen-formato-documentos.png);
+    background-repeat: no-repeat;    
+    .form-info {
+        min-height: 60rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 60rem;
+        h2 {
+            font-size: rem(64px);
+            margin-top: rem(300px);
+            margin-left: rem(200px);
+            color: $amarillo;
+            width: fit-content;
+            
+        }
+        p {
+            font-size: rem(64px);
+            margin-top: rem(100px);
+            margin-left: rem(200px);
+            color: $amarillo;
+            width: fit-content;
+            
+        }
+
+        .info-text {
+            margin-top: 22%;
+            color: $white;
+            p {
+                font-size: rem(35px);
+                color: $white;
+            }
+        }
+    }
+}

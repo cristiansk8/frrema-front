@@ -1,0 +1,45 @@
+#objetivos {
+    background-color: $fondoN;
+    transform: skewY(-3deg);
+    background-image: url("http://fundacionfrema.com.co/wp-content/uploads/2021/10/planta-izq.png");
+    background-repeat: no-repeat, repeat;
+    padding: rem(200px) rem(20px) rem(100px) rem(20px);
+    @include from(l) {
+        padding: rem(200px) rem(120px) rem(100px) rem(120px);
+    }
+    header {
+        transform: skewY(3deg);
+        text-align: center;
+        h2 {
+            color: $white;
+        }
+        p {
+            color: $white;
+        }
+    }
+    .objetivos {
+        transform: skewY(3deg);
+        display: flex;
+        flex-wrap: wrap;
+        .item {
+            figure{
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            padding: 0 rem(20px);
+            width: 99%;
+            @include from(l) {
+                width: 24%;
+            }
+            color: $white;
+            text-align: center;
+            .caption {
+                p {
+                    color: $white;
+                }
+            }
+        }
+    }
+}

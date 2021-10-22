@@ -1,0 +1,9 @@
+.block-video {
+    background-image: url("http://local-frema.com/wp-content/uploads/2021/10/planta-vid.png");
+    background-repeat: no-repeat;
+    &__iframe {
+        @include from(l) {
+            min-height: rem(520px);
+        }
+    }
+}

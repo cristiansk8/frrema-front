@@ -1,0 +1,210 @@
+.form-banner {
+    .form-info {
+        h2 {
+            margin-top: 100px;
+            margin-left: 40px;
+            font-size: rem(30px);
+            color: $amarillo;
+            width: fit-content;
+            padding: 10px 20px;
+        }
+        .info-text {
+            margin-top: 22%;
+            color: $white;
+            padding: 0 20%;
+            p {
+                font-size: rem(35px);
+                color: $white
+            }
+        }
+    }
+    .cifras-banner-form {
+        background-color: $amarillo;
+        min-height: 64rem !important;
+    }
+}
+
+#form2-docs {
+    background-image: url(http://local-frema.com/wp-content/uploads/2021/10/imagen-formato-documentos.png);
+    background-repeat: no-repeat;
+    .form-info {
+        h2 {
+            font-size: rem(64px);
+            margin-top: rem(300px);
+            margin-left: rem(200px);
+            color: $amarillo;
+            width: fit-content;
+        }
+        p {
+            font-size: rem(64px);
+            margin-top: rem(100px);
+            margin-left: rem(200px);
+            color: $amarillo;
+            width: fit-content;
+            font-family: $rb;
+        }
+        .info-text {
+            margin-top: 22%;
+            color: $white;
+            p {
+                font-size: rem(35px);
+                color: $white;
+                font-family: $rb;
+            }
+        }
+    }
+    .wpcf7 form input[type=submit] {
+        padding: rem(20px) rem(30px);
+        background-color: $white;
+        color: $naranja;
+        border-radius: 62px;
+        text-decoration: none;
+        &:hover {
+            background-color: $naranja;
+            color: $white;
+            border: 1px solid $white;
+        }
+    }
+}
+
+#form2-shop {
+    .form-info {
+        background-image: url('../images/bg/imagen-formulario.png');
+        background-size: cover;
+        padding: rem(150px) rem(100px);
+        min-height: 650px;
+        h2 {
+            font-size: rem(64px);
+            color: $white;
+            width: 50%;
+            line-height: 50px;
+        }
+        p {
+            font-size: rem(64px);
+            color: $amarillo;
+            width: fit-content;
+            font-family: $rb;
+        }
+        a {
+            padding: rem(20px) rem(30px);
+            background-color: $fondoM;
+            color: $white;
+            border-radius: 62px;
+            text-decoration: none;
+            margin-top: re(20px);
+            font-size: rem(34px);
+            font-family: $rb;
+            &:hover {
+                background-color: $white;
+                color: $naranja;
+                border: 1px solid $naranja;
+            }
+        }
+    }
+    .wpcf7 form input[type=submit] {
+        padding: rem(20px) rem(30px);
+        background-color: $verde;
+        color: $white;
+        border-radius: 62px;
+        text-decoration: none;
+        border: 1px solid $verde;
+        &:hover {
+            background-color: $white;
+            color: $verde;
+            border: 1px solid $verde;
+        }
+    }
+    .wpcf7 form input[type=date],
+    .wpcf7 form input[type=email],
+    .wpcf7 form input[type=number],
+    .wpcf7 form input[type=tel],
+    .wpcf7 form input[type=text] {
+        display: block;
+        color: $verde;
+        width: 100%;
+        height: 60px;
+        border-radius: 30px;
+        padding: 1.875rem;
+        background-color: #ffffff;
+        border: .1rem solid $verde;
+        margin-left: 3.125rem;
+    }
+    .wpcf7 form textarea {
+        width: 88%;
+        display: block;
+        color: $verde;
+        background-color: #fff;
+        border-radius: 30px;
+        padding: 1rem;
+        background-color: transparent;
+        border: .1rem solid $verde;
+        background-color: $white;
+    }
+}
+
+#formulario {
+    transform: skewY(-3deg);
+    background-image: url('../images/bg/bg-form.png');
+    background-size: cover;
+    .formulario {
+        transform: skewY(3deg);
+        .titulo {
+            color: $white;
+            padding: 10px 20px;
+            text-transform: uppercase;
+        }
+        .info-text {
+            margin-top: 22%;
+            color: $white;
+            padding: 0 20%;
+            p {
+                font-size: rem(35px);
+                color: $white
+            }
+        }
+    }
+    .wpcf7 form input[type=date],
+    .wpcf7 form input[type=email],
+    .wpcf7 form input[type=number],
+    .wpcf7 form input[type=tel],
+    .wpcf7 form input[type=text] {
+        display: block;
+        color: #87868a;
+        width: 100%;
+        height: 60px;
+        border-radius: 30px;
+        padding: 1rem;
+        margin: 1rem;
+        background-color: transparent;
+        border: .1rem solid $blue;
+        background-color: $white;
+    }
+    .wpcf7 form input[type=submit] {
+        padding: rem(20px) rem(30px);
+        background-color: $gris-oscuro;
+        color: $white;
+        border-radius: 62px;
+        text-decoration: none;
+        border: 1px solid $white;
+        &:hover {
+            background-color: $white;
+            color: $gris-oscuro;
+            border: 1px solid $gris-oscuro;
+        }
+    }
+    .wpcf7 form textarea {
+        width: 88%;
+        display: block;
+        color: #87868a;
+        color: $gray-dark;
+        background-color: #fff;
+        border-radius: 30px;
+        padding: 1rem;
+        background-color: transparent;
+        border: .1rem solid $blue;
+        background-color: $white;
+    }
+    .wpcf7 {
+        padding: rem(30px);
+    }
+}
